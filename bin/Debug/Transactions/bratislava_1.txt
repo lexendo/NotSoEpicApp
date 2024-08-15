@@ -1,0 +1,5 @@
+Title: bratislava
+Amount: 132
+IsIncome: True
+Description: cesta do bratislavy tento tyzden
+Date: 8/14/2024

@@ -1,0 +1,4 @@
+Title: cau
+Amount: 33
+Description: Made a payment to the landscaping service for regular maintenance of the office grounds. This keeps our exterior environment welcoming and professional.
+Date: 8/10/2024

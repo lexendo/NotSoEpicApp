@@ -1,0 +1,5 @@
+Title: donovaly
+Amount: 144
+IsIncome: True
+Description: tazenie uhlia v donovaloch
+Date: 7/4/2024

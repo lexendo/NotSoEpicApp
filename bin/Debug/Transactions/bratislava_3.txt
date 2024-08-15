@@ -1,0 +1,5 @@
+Title: bratislava
+Amount: 23
+IsIncome: True
+Description: orrsdradsgasdn
+Date: 8/6/2024

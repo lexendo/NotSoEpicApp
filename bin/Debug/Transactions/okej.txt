@@ -1,0 +1,4 @@
+Title: okej
+Amount: 44
+Description: Payment for freelance graphic design work.
+Date: 8/16/2024

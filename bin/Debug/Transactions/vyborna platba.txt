@@ -1,0 +1,5 @@
+Title: vyborna platba
+Amount: -23
+IsIncome: False
+Description: Donation to a local charity for community support.
+Date: 8/10/2024

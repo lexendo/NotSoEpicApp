@@ -1,0 +1,50 @@
+﻿<Page x:Class="NotSoEpicApp.MainPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      Title="MainPage">
+
+    <Page.Background>
+        <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+            <GradientStop Color="#B3E5FC" Offset="0.0"/>
+            <GradientStop Color="#CFD8DC" Offset="1.0"/>
+        </LinearGradientBrush>
+    </Page.Background>
+
+    <Grid Margin="0,0,10,-6">
+
+        <Grid Margin="160,59,152,135">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <TextBlock Text="Add new transaction below" FontWeight="Bold" FontSize="16" Grid.ColumnSpan="2" Margin="0,0,0,20"/>
+
+            <TextBlock Text="Title:" Grid.Row="1" Grid.Column="0" VerticalAlignment="Center" Margin="0,0,10,10"/>
+            <TextBox x:Name="TitleTextBox" Grid.Column="1" Margin="0,9,234,10" Grid.Row="1"/>
+
+            <TextBlock Text="Amount:" Grid.Row="1" Grid.Column="1" VerticalAlignment="Center" Margin="202,0,138,0" RenderTransformOrigin="-0.013,0.737"/>
+            <TextBox x:Name="AmountTextBox" Grid.Row="1" Grid.Column="1" Margin="267,12,23,10" RenderTransformOrigin="0.305,0.71"/>
+
+            <TextBlock Text="Description:" Grid.Row="3" Grid.Column="0" VerticalAlignment="Center" Margin="0,0,10,10"/>
+            <TextBox x:Name="DescriptionTextBox" Grid.Row="3" Grid.Column="1" Margin="0,0,0,10" Height="60"/>
+
+            <TextBlock Text="Date:" Grid.Row="4" Grid.Column="0" VerticalAlignment="Center" Margin="0,0,10,10"/>
+            <DatePicker x:Name="DatePicker" Grid.Row="4" Grid.Column="1" Margin="0,0,0,10"/>
+
+            <Button x:Name="Submit_Button" Content="Submit" Grid.Row="4" Grid.Column="1" Width="100" HorizontalAlignment="Right" Margin="0,30,0,-10" Click="Submit_Button_Click"/>
+        </Grid>
+
+        <StackPanel Orientation="Horizontal" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0,310,0,0" Height="81" Width="289">
+            <Button x:Name="TransactionsButton" Content="Transactions" Width="134" Height="38" Click="TransactionsButton_Click"/>
+            <Button x:Name="ChartsButton" Content="Charts" Width="125" Height="38" Click="ChartsButton_Click" Margin="10,0,0,0" RenderTransformOrigin="0.664,0.583"/>
+        </StackPanel>
+    </Grid>
+</Page>

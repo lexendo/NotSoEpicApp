@@ -1,0 +1,4 @@
+Title: marekovi
+Amount: 123
+Description: Paid for the repair and maintenance of office equipment, including printers and copiers. This ensures all devices are in optimal working condition for daily tasks.
+Date: 8/9/2024

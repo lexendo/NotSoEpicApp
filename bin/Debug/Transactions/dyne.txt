@@ -1,0 +1,5 @@
+Title: dyne
+Amount: -200
+IsIncome: False
+Description: nakup dyni
+Date: 8/15/2024

@@ -1,0 +1,5 @@
+Title: bratislava
+Amount: 11
+IsIncome: True
+Description: cesta do bratislavy
+Date: 5/7/2024

@@ -1,0 +1,5 @@
+Title: kopacky
+Amount: -123.55
+IsIncome: False
+Description: platba za kopacky nike.sk
+Date: 8/13/2024

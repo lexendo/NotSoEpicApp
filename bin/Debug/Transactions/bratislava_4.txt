@@ -1,0 +1,5 @@
+Title: bratislava
+Amount: 333
+IsIncome: True
+Description: DSADA
+Date: 8/1/2024

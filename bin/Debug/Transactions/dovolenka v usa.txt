@@ -1,0 +1,5 @@
+Title: dovolenka v usa
+Amount: -3334
+IsIncome: False
+Description: epicka dovolenka v usa mesiac 
+Date: 10/10/2023
